@@ -1,0 +1,36 @@
+
+@media(min-width: 200px) and (max-width: 534px){
+	[class*="col-"]{
+		width: 100%;
+	
+	}
+	.bootstrap{
+		font-size: 14px;
+		vertical-align:middle;
+		float: left;
+		
+	}
+    .bar{
+    	display: inline-block;
+    	float: right;
+    	color: white;
+    	padding-right: 3%;
+
+
+    }
+	
+  	.business{
+  		font-size: 20px;
+  		padding-top: 6%;
+  	}
+ 	.business2{
+ 		font-size: 25px;
+ 		padding-bottom: 10%;
+ 		
+ 	}
+
+ 	[class*=oculto]{
+ 	display: none;
+
+ }
+}
