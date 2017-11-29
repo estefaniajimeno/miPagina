@@ -7,30 +7,28 @@
 	.bootstrap{
 		font-size: 14px;
 		vertical-align:middle;
-		float: left;
+		position: relative;
 		
 	}
-    .bar{
+    .oculto{
     	display: inline-block;
     	float: right;
     	color: white;
-    	padding-right: 3%;
-
-
+    	top: 4%;
+    	padding-right:8%;
+    }
+    .visible{
+    	display: none;
     }
 	
   	.business{
-  		font-size: 20px;
+  		font-size: 15px;
   		padding-top: 6%;
+
   	}
  	.business2{
- 		font-size: 25px;
+ 		font-size: 18px;
  		padding-bottom: 10%;
  		
  	}
-
- 	[class*=oculto]{
- 	display: none;
-
- }
 }

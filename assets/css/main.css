@@ -22,7 +22,12 @@ li{
 .section1{
 	background-color: #D7DBDD;
 }
-
+.oculto{
+	display: none;
+}
+.visible{
+	display: inline-block;
+}
 .business{
 	color: white;
 	font-family: arial;
@@ -58,7 +63,7 @@ h4{
 	padding-right: 9%;
 }
 .boton{
-	background-color: #0000ff;
+	background-color: blue;
 	border-radius: 4px;
 	display: inline-block;
 	margin-left: 4%;
@@ -91,14 +96,17 @@ h4{
 	font-size: 14px;
 	padding-left: 4%;
 }
-
 .medida{
 	background: #D7DBDD;
 	color: white;
-	font-size: 30px;
+	font-size: 25px;
 	display: inline-block;
 	padding: 15%;
 	margin-left: 4%;
+	border-top: 1px solid grey;
+	border-right: 1px solid grey;
+	border-left: 1px solid grey;
+	width: 57%;
 }
 .titulo{
 	font-family: arial;
@@ -106,22 +114,34 @@ h4{
 	color: black;
 	margin-left: 4%;
 	padding-top: 4%;
-	border-right: 
+	border-right: 1px solid grey;
+	border-left: 1px solid grey;
+	width: 57%;
 }
 .loremipsum1{
 	margin-left: 4%;
 	padding-bottom: 16%;
-
+	border-right: 1px solid grey;
+	border-left: 1px solid grey;
+	width: 57%;
+}
+.btncontainer{
+	border:1px solid grey;
+	width: 57%;
+	margin-left: 4%;
+	background-color: #D7DBDD;
 }
 .fraseFinal{
 	margin-left: 4%;
-	background-color: #0000ff;
+	background-color: blue;
 	border-radius: 4px;
 	display: inline-block;
-	padding: 1%;
 	color: white;
-}
-
+	margin-top: 2%;
+	margin-bottom: 2%;
+	font-family: arial;
+	padding: 3%;
+}	
 footer{
 	background-color:#273746 ;
 	color: white;
